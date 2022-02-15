@@ -3,17 +3,18 @@
 
 
 def to_c(from_f):
-    Centigrade = (from_f * 9/5 + 32)
-    return Centigrade
+    centigrade1 = (from_f - 32)
+    centigrade = centigrade1 * 5/9
+    return centigrade
 
 
 # main routine
-temperatures = [0, 40, 100]
+temperatures = [32, 104, 212]
 converted = []
 
 for item in temperatures:
     answer = to_c(item)
-    ans_statement = "{} degrees C is {} degrees F".format(item, answer)
+    ans_statement = "{} degrees F is {} degrees c".format(item, answer)
     converted.append(ans_statement)
 
 print(converted)
