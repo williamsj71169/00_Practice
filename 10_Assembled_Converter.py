@@ -1,7 +1,3 @@
-from tkinter import *
-from functools import partial  # to prevent unwanted windows
-import random
-
 
 class Converter:
     def __init__(self):
@@ -10,7 +6,7 @@ class Converter:
         background_colour = "light blue"
 
         # initialise list to hold calculation history
-        self.all_calc_list = []
+        self.all_calculations = []
 
         # converter Frame
         self.converter_frame = Frame(bg=background_colour, pady=10)
@@ -58,13 +54,9 @@ class Converter:
         self.hist_help_frame = Frame(self.converter_frame)
         self.hist_help_frame.grid(row=5, pady=10)
 
-        self.calc_history_button = Button(self.hist_help_frame, font="arial 12 bold",
-                                          text="Calculation History", width=15,
-                                          command=lambda: self.history(self.all_calc_list))
-        self.calc_history_button.grid(row=0, column=0)
-
-        if len(self.all_calc_list) == 0:
-            self.calc_history_button.config(state=DISABLED)
+        self.calc_hist_button = Button(self.hist_help_frame, font="arial 12 bold",
+                                       text="Calculation History", width=15)
+        self.calc_hist_button.grid(row=0, column=0)
 
         self.help_button = Button(self.hist_help_frame, font="arial 12 bold",
                                   text="Help", width=5)
@@ -110,10 +102,9 @@ class Converter:
                 self.to_convert_entry.configure(bg=error)
 
             # add answer to list for history
-            if has_errors != "yes":
-                self.all_calc_list.append(answer)
-                print(self.all_calc_list)
-                self.calc_history_button.config(state=NORMAL)
+            if answer != "Too Cold!":
+                self.all_calculations.append(answer)
+                print(self.all_calculations)
 
         except ValueError:
             self.converted_label.configure(text="Enter a number!!", fg="red")
@@ -126,10 +117,3 @@ class Converter:
             rounded = round(to_round, 1)
 
         return rounded
-
-# main routine
-if __name__ == "__main__":
-    root = Tk()
-    root.title("Temperature Converter")
-    something = Converter()
-    root.mainloop()
