@@ -23,9 +23,12 @@
       <file leaf-file-name="02_Help_GUI.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02_Help_GUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="459">
+              <caret line="34" column="3" selection-start-line="34" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#1308#2722#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,9 +71,13 @@
       <file leaf-file-name="10.55_Assembled_Converter.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/10.55_Assembled_Converter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-459">
-              <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
-              <folding />
+            <state relative-caret-position="119">
+              <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+              <folding>
+                <element signature="e#154#5715#0" expanded="false" />
+                <element signature="e#5737#9024#0" expanded="false" />
+                <element signature="e#9043#10457#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -231,41 +238,7 @@
       <recent name="C:\Users\williamsj71169\OneDrive - Massey High School\!! School !!\13_Com\Programing\01_Mystery_box" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.03_Converter_GUIv4">
-    <configuration default="false" name="03_Converter_GUIv2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="01_Mystery_box" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Converter_GUIv2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="03_Converter_GUIv3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="01_Mystery_box" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Converter_GUIv3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.10.55_Assembled_Converter">
     <configuration default="false" name="09_History_GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -313,6 +286,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="01_Mystery_box" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10.5_Assembled_Converter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="10.55_Assembled_Converter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="01_Mystery_box" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10.55_Assembled_Converter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="02_Help_GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="01_Mystery_box" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Help_GUI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -452,19 +459,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.03_Converter_GUIv2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.03_Converter_GUIv3" />
-      <item index="2" class="java.lang.String" itemvalue="Python.09_History_GUI" />
-      <item index="3" class="java.lang.String" itemvalue="Python.03_Converter_GUIv4" />
-      <item index="4" class="java.lang.String" itemvalue="Python.10.5_Assembled_Converter" />
+      <item index="0" class="java.lang.String" itemvalue="Python.09_History_GUI" />
+      <item index="1" class="java.lang.String" itemvalue="Python.03_Converter_GUIv4" />
+      <item index="2" class="java.lang.String" itemvalue="Python.10.5_Assembled_Converter" />
+      <item index="3" class="java.lang.String" itemvalue="Python.10.55_Assembled_Converter" />
+      <item index="4" class="java.lang.String" itemvalue="Python.02_Help_GUI" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.03_Converter_GUIv4" />
-        <item index="1" class="java.lang.String" itemvalue="Python.10.5_Assembled_Converter" />
-        <item index="2" class="java.lang.String" itemvalue="Python.09_History_GUI" />
-        <item index="3" class="java.lang.String" itemvalue="Python.03_Converter_GUIv3" />
-        <item index="4" class="java.lang.String" itemvalue="Python.03_Converter_GUIv2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.10.55_Assembled_Converter" />
+        <item index="1" class="java.lang.String" itemvalue="Python.02_Help_GUI" />
+        <item index="2" class="java.lang.String" itemvalue="Python.03_Converter_GUIv4" />
+        <item index="3" class="java.lang.String" itemvalue="Python.10.5_Assembled_Converter" />
+        <item index="4" class="java.lang.String" itemvalue="Python.09_History_GUI" />
       </list>
     </recent_temporary>
   </component>
@@ -494,7 +501,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -575,7 +582,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#1308#2722#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -639,7 +649,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#1308#2722#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -702,7 +715,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#1308#2722#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -742,7 +758,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1207">
           <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="76" selection-end-column="39" />
-          <folding />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#1308#2722#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -761,7 +780,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#1308#2722#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -865,14 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_Help_GUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_Converter_GUIv2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
@@ -930,11 +944,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/02_Help_GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" column="3" selection-start-line="34" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#1308#2722#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/10.55_Assembled_Converter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
-          <folding />
+        <state relative-caret-position="119">
+          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+          <folding>
+            <element signature="e#154#5715#0" expanded="false" />
+            <element signature="e#5737#9024#0" expanded="false" />
+            <element signature="e#9043#10457#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
