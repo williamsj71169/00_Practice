@@ -66,9 +66,18 @@ if __name__ == '__main__':
             if len(self.all_calc_list) == 0:
                 self.calc_history_button.config(state=DISABLED)
 
-            self.help_button = Button(self.hist_help_frame, font="arial 12 bold",
-                                      text="Help", width=5)
+            self.help_button = Button(self.hist_help_frame, text="Help",
+                                      font=("Arial 12 bold"),
+                                      command=self.help)
             self.help_button.grid(row=0, column=1)
+
+        def history(self, calc_history):
+            History(self, calc_history)
+
+        def help(self):
+            print("You asked for help")
+            get_help = Help(self)
+            get_help.help_text.configure(text="Help text goes here")
 
         def temp_convert(self, low):
             print(low)
@@ -134,7 +143,7 @@ class History:
         background = "#a9ef99"  # pale orange
 
         # disable history button
-        partner.history_button.config(state=DISABLED)
+        partner.calc_history_button.config(state=DISABLED)
 
         # sets up child window (ie: history box)
         self.history_box = Toplevel()
@@ -201,7 +210,7 @@ class History:
 
     def close_history(self, partner):
         # put history button back to normal
-        partner.history_button.config(state=NORMAL)
+        partner.calc_history_button.config(state=NORMAL)
         self.history_box.destroy()
 
 

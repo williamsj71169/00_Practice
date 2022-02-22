@@ -120,3 +120,7 @@ if __name__ == "__main__":
     root.title("Temperature Converter")
     something = Converter()
     root.mainloop()
+
+"""self.calc_history_button = Button(self.hist_help_frame, font="arial 12 bold",
+                                              text="Calculation History", width=15,
+                                              command=lambda: self.history(self.all_calc_list))"""

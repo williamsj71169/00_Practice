@@ -32,6 +32,7 @@ if __name__ == '__main__':
             get_help = Help(self)
             get_help.help_text.configure(text="Help text goes here")
 
+
 class Help:
     def __init__(self, partner):
 
