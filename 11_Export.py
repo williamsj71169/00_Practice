@@ -26,6 +26,7 @@ class Converter:
     def export(self):
         get_export = Export(self)
 
+
 class Export:
     def __init__(self, partner):
 
@@ -47,7 +48,7 @@ class Export:
 
         # set up export heading (row 0)
         self.how_heading = Label(self.export_frame, text="Export / Instructions",
-                                 font = "arial 14 bold", bg=background)
+                                 font="arial 14 bold", bg=background)
         self.how_heading.grid(row=0)
 
         # export instructions
@@ -66,8 +67,24 @@ class Export:
 
         # filename entry box (row 3)
         self.filename_entry = Entry(self.export_frame, width=20, font="Arial 14 bold", justify=CENTER)
-        self.filemane_entry
+        self.filename_entry.grid(row=3, column=0)
 
+        # Save / cancel frame (row4)
+        self.save_cancel_frame = Frame(self.export_frame)
+        self.save_cancel_frame.grid(row=5, pady=10)
+
+        # Save and Cancel Buttons (row 0 of save_cancel_frame)
+        self.save_button = Button(self.save_cancel_frame, text="Save")
+        self.save_button.grid(row=0, column=0)
+
+        self.cancel_button = Button(self.save_cancel_frame, text="Cancel",
+                                    command=partial(self.close_export, partner))
+        self.cancel_button.grid(row=0, column=1)
+
+    def close_export(self, partner):
+        # put export button back to normal
+        partner.export_button.config(state=NORMAL)
+        self.export_box.destroy()
 
 # main routine
 if __name__ == "__main__":
