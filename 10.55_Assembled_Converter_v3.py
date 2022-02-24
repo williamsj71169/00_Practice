@@ -2,6 +2,9 @@ from tkinter import *
 from functools import partial  # to prevent unwanted windows
 import random
 
+# heading, date/time?
+
+
 if __name__ == '__main__':
     class Converter:
         def __init__(self):

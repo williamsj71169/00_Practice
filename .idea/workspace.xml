@@ -32,15 +32,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="10.55_Assembled_Converter_v2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="10.55_Assembled_Converter_v2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10.55_Assembled_Converter_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="337" column="42" selection-start-line="337" selection-start-column="42" selection-end-line="337" selection-end-column="42" />
+            <state relative-caret-position="1428">
+              <caret line="299" column="31" selection-start-line="299" selection-start-column="31" selection-end-line="299" selection-end-column="31" />
               <folding>
                 <element signature="e#154#6522#0" expanded="false" />
                 <element signature="e#6544#10014#0" expanded="false" />
                 <element signature="e#14433#15848#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10.55_Assembled_Converter_v3.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/10.55_Assembled_Converter_v3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <folding>
+                <element signature="e#178#6546#0" expanded="false" />
+                <element signature="e#6568#10038#0" expanded="false" />
+                <element signature="e#10059#14438#0" expanded="false" />
+                <element signature="e#14457#15872#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -130,6 +145,7 @@
         <option value="$PROJECT_DIR$/10.55_Assembled_Converter.py" />
         <option value="$PROJECT_DIR$/11_Export_history.py" />
         <option value="$PROJECT_DIR$/10.55_Assembled_Converter_v2.py" />
+        <option value="$PROJECT_DIR$/10.55_Assembled_Converter_v3.py" />
       </list>
     </option>
   </component>
@@ -424,14 +440,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="951" y="0" width="976" height="1047" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.035416666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22945571" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22945571" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -483,19 +499,17 @@
           <line>20</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/10.55_Assembled_Converter_v3.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05_rounding.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06_number checking.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -855,12 +869,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/10.55_Assembled_Converter_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="337" column="42" selection-start-line="337" selection-start-column="42" selection-end-line="337" selection-end-column="42" />
+        <state relative-caret-position="1428">
+          <caret line="299" column="31" selection-start-line="299" selection-start-column="31" selection-end-line="299" selection-end-column="31" />
           <folding>
             <element signature="e#154#6522#0" expanded="false" />
             <element signature="e#6544#10014#0" expanded="false" />
             <element signature="e#14433#15848#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10.55_Assembled_Converter_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <element signature="e#178#6546#0" expanded="false" />
+            <element signature="e#6568#10038#0" expanded="false" />
+            <element signature="e#10059#14438#0" expanded="false" />
+            <element signature="e#14457#15872#0" expanded="false" />
           </folding>
         </state>
       </provider>
