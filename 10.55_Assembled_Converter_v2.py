@@ -58,17 +58,18 @@ if __name__ == '__main__':
             self.hist_help_frame = Frame(self.converter_frame)
             self.hist_help_frame.grid(row=5, pady=10)
 
+            self.calc_history_button = Button(self.hist_help_frame, text="Calculation History",
+                                              font=("Arial", "14"), width=15,
+                                              command=lambda: self.history(self.all_calc_list))
+            self.calc_history_button.grid(row=0, column=0)
+            
+            if len(self.all_calc_list) == 0:
+                self.calc_history_button.config(state=DISABLED)
+
             self.help_button = Button(self.hist_help_frame, text="Help",
-                                      font=("Arial 12 bold"),
+                                      font=("Arial 12 bold"), width=5, pady=4,
                                       command=self.help)
             self.help_button.grid(row=0, column=1)
-
-
-
-        def help(self):
-            print("You asked for help")
-            get_help = Help(self)
-            get_help.help_text.configure(text="Help text goes here")
 
         def temp_convert(self, low):
             print(low)
@@ -127,19 +128,31 @@ if __name__ == '__main__':
 
             return rounded
 
+        def history(self, calc_history):
+            History(self, calc_history)
+
+        def help(self):
+            print("You asked for help")
+            get_help = Help(self)
+            get_help.help_text.configure(text="Please enter a number into the box and then push one of the buttons"
+                                              " to convert the number to either degrees C or degrees F.\n\n"
+                                              "The Calculation History area shows up to seven past calculations"
+                                              " (most recent at the top). \n\nYou can also export your full calculation"
+                                              "history to a text file if you want to.")
+
 
 class History:
     def __init__(self, partner, calc_history):
 
-        background = "#a9ef99"  # pale orange
+        background = "#a9ef99"  # pale green/orange?
 
-        # disable history button
-        partner.history_button.config(state=DISABLED)
+        # disable calc history button
+        partner.calc_history_button.config(state=DISABLED)
 
         # sets up child window (ie: history box)
         self.history_box = Toplevel()
 
-        # if users pres cross at top, closes history and 'releases' history button
+        # if users pres cross at top, closes history and 'releases' calc history button
         self.history_box.protocol('WM_DELETE_WINDOW', partial(self.close_history, partner))
 
         # set up GUI frame
@@ -201,8 +214,8 @@ class History:
         self.dismiss_button.grid(row=0, column=1)
 
     def close_history(self, partner):
-        # put history button back to normal
-        partner.history_button.config(state=NORMAL)
+        # put calc history button back to normal
+        partner.calc_history_button.config(state=NORMAL)
         self.history_box.destroy()
 
     def export(self, calc_history):
@@ -329,6 +342,7 @@ class Export:
 
 class Help:
     def __init__(self, partner):
+
         background = "orange"
 
         # disable help button
